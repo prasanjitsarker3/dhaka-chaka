@@ -1,0 +1,21 @@
+.authentication{
+    text-align: center;
+    padding:15px;
+    background-color:aqua;
+    color:black;
+    
+    
+}
+.form-about{
+    margin: 2px 5px 7px 10px;
+   
+}
+.auth{
+    color:firebrick;
+}
+.button{
+    border-radius: 8px;
+    background-color:crimson;
+    
+}
+
