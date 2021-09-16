@@ -11,6 +11,7 @@ import Login from './components/Login/Login';
 import PrivateRoute from './components/Home/PrivateRoute/PrivateRoute';
 import Destination from './components/Destination/Destination';
 import { createContext, useState } from 'react';
+import ShowAbout from './components/ShowAbout/ShowAbout';
 
 
 export const UserContext = createContext();
@@ -38,7 +39,9 @@ function App() {
         <Route path="*">
           <Error></Error>
         </Route>
-
+        <Router path="/about/:type">
+          <ShowAbout></ShowAbout>
+        </Router>
       </Switch>
     </Router>
     </UserContext.Provider>
