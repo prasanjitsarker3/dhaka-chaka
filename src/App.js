@@ -14,6 +14,7 @@ import { createContext, useState } from 'react';
 import ShowAbout from './components/ShowAbout/ShowAbout';
 
 
+
 export const UserContext = createContext();
 function App() {
   const [loggedInUser, setLoggedInUser ] = useState({})
@@ -39,7 +40,7 @@ function App() {
         <Route path="*">
           <Error></Error>
         </Route>
-        <Router path="/about/:type">
+        <Router path="/showAbout">
           <ShowAbout></ShowAbout>
         </Router>
       </Switch>
