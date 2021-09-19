@@ -16,7 +16,7 @@ const Searchrider = (props) => {
         <div className="card-body">
          
          <h3>{type} Service</h3>
-         <span class="input-group-text" id="inputGroup-sizing-sm">Pick from:</span>
+         <span class="input-group-text" id="inputGroup-sizing-sm">Pick From:</span>
        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"></input>
        <br/>
        <span class="input-group-text" id="inputGroup-sizing-sm">Pick To:</span>
